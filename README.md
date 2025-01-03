@@ -1,1 +1,35 @@
 # Hw2-Wab66160003
+- git add .
+- git commit -m "สร้าง Folder รูปภาพสถานที่ท่องเที่ยว"
+- git add .
+- git commit -m "เพิ่มไฟล์ css เดิมจาก Hw แรก"
+- git add .
+- git commit -m "สร้างไฟล์ index เพิ่ม link Bootstrap"
+- git add .
+- git commit -m "เพิ่ม Navbar หน้า index"
+- git add .
+- git commit -m "เพิ่ม Hero Section หน้า index"
+- git add index.html
+- git commit -m "เพิ่ม Grid Section หน้า index"
+- git add .
+- git commit -m "เพิ่มรูปภาพของ card"
+- git add .
+- git commit -m "เพิ่ม Contact Form Modal หน้า index"
+- git add .
+- git commit -m "เพิ่ม Footer หน้า index"
+- git add .
+- git commit -m "เพิ่ม Bootstrap JS หน้า index"
+- git add .
+- git commit -m "แก้ไขข้อมูลติดต่อ"
+- git add .
+- git commit -m "เพิ่มไฟล์ details จาก Hw1"
+- git add .
+- git commit -m "เพิ่มไฟล์ contact จาก Hw1"
+- git add .\details.html
+- git commit -m "แก้ไขหน้า details เพิ่ม Bootstrap"
+- git add .\contact.html
+- git commit -m "แก้ไขหน้า contact เพิ่ม Bootstrap"
+- git add .
+- git commit -m "เพิ่มรูป logo ในหน้า details"
+- git add .
+- git commit -m "สร้าง folder Screenshot"
