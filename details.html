@@ -3,96 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>สถานที่ท่องเที่ยวในจังหวัดระยอง</title>
+  <title>เกี่ยวกับเรา - Rayong Travel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-<!-- เพิ่มลิงก์ Font Awesome -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html"><i class="fas fa-home"></i> หน้าแรก</a></li>
-        <li><a href="details.html"><i class="fas fa-map-marker-alt"></i> สถานที่ท่องเที่ยว</a></li>
-        <li><a href="contact.html"><i class="fas fa-envelope"></i> ติดต่อเรา</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Main Content -->
-  <main>
-    <section class="intro">
-      <h1>สถานที่ท่องเที่ยวในจังหวัดระยอง</h1>
-      <p>พบกับ 5 สถานที่ท่องเที่ยวที่คุณไม่ควรพลาดเมื่อมาเยือนจังหวัดระยอง พร้อมประสบการณ์ที่จะทำให้การเดินทางของคุณไม่มีวันลืม</p>
-    </section>
-
-    <!-- Tourist Spots Section -->
-    <section class="tourist-spots">
-      <!-- Spot 1 -->
-      <div class="spot-card">
-        <img src="images/spot1.jpg" alt="หาดแสงจันทร์">
-        <h2>หาดแสงจันทร์</h2>
-        <p>หาดทรายขาวสะอาด น้ำทะเลใสเหมาะสำหรับการพักผ่อนชมวิวทะเลที่สวยงามของระยอง และยังเป็นที่นิยมในการถ่ายภาพพระอาทิตย์ตกดิน</p>
-        <ul>
-          <li><strong>กิจกรรม:</strong> นั่งเรือชมเกาะใกล้เคียง, พายเรือคายัค, เดินชมชายหาด</li>
-          <li><strong>ที่ตั้ง:</strong> ถนน หาดแม่รำพึง ตำบลเพ อำเภอเมืองระยอง จังหวัดระยอง</li>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Rayong Travel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="details.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
+    </div>
+  </nav>
 
-      <!-- Spot 2 -->
-      <div class="spot-card">
-        <img src="images/spot2.jpg" alt="เกาะเสม็ด">
-        <h2>เกาะเสม็ด</h2>
-        <p>เกาะที่มีชื่อเสียงในด้านน้ำทะเลใสและชายหาดที่สวยงามเหมาะแก่การทำกิจกรรมทางน้ำ เช่น ดำน้ำตื้น, พายเรือคายัค และสนุกสนานกับปาร์ตี้ชายหาดในช่วงเย็น</p>
-        <ul>
-          <li><strong>กิจกรรม:</strong> ดำน้ำ, ว่ายน้ำ, พายเรือ, ปาร์ตี้ชายหาด</li>
-          <li><strong>ที่ตั้ง:</strong> อยู่ตอนบนของอ่าวไทย ห่างจากชายฝั่ง ตำบลบ้านเพ อำเภอเมืองระยอง</li>
-        </ul>
+  <!-- About Section -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">เกี่ยวกับเรา</h2>
+    <p class="text-center">Rayong Travel มุ่งมั่นในการแนะนำสถานที่ท่องเที่ยวที่ดีที่สุดในจังหวัดระยอง เรารวบรวมข้อมูลที่หลากหลายเพื่อช่วยให้คุณค้นพบสถานที่ที่เหมาะสำหรับการพักผ่อนและผจญภัยในทุกโอกาส</p>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="images/about.jpg" class="img-fluid rounded" alt="เกี่ยวกับเรา">
       </div>
-
-      <!-- Spot 3 -->
-      <div class="spot-card">
-        <img src="images/spot3.jpg" alt="สวนพฤกษศาสตร์ระยอง">
-        <h2>สวนพฤกษศาสตร์ระยอง</h2>
-        <p>สวนพฤกษศาสตร์ที่เต็มไปด้วยพืชพันธุ์ไม้ทั้งในและต่างประเทศ เหมาะสำหรับการเดินชมธรรมชาติและการศึกษาสิ่งแวดล้อม ซึ่งสามารถทำกิจกรรมศึกษาธรรมชาติในช่วงเช้าหรือบ่ายได้</p>
+      <div class="col-md-6">
+        <h4>สิ่งที่เรานำเสนอ</h4>
         <ul>
-          <li><strong>กิจกรรม:</strong> เดินชมธรรมชาติ, ถ่ายภาพ, ศึกษาพันธุ์ไม้</li>
-          <li><strong>ที่ตั้ง:</strong> สวนพฤษศาสตร์ระยอง ต.ชากพง อ.แกลง จ. ระยอง</li>
+          <li>ข้อมูลสถานที่ท่องเที่ยวที่หลากหลาย</li>
+          <li>คำแนะนำการเดินทาง</li>
+          <li>กิจกรรมและเทศกาลในท้องถิ่น</li>
         </ul>
+        <p>เรามุ่งหวังที่จะเป็นส่วนหนึ่งของการเดินทางที่น่าประทับใจของคุณในจังหวัดระยอง</p>
       </div>
-
-      <!-- Spot 4 -->
-      <div class="spot-card">
-        <img src="images/spot4.jpg" alt="เขาแหลมหญ้า">
-        <h2>เขาแหลมหญ้า</h2>
-        <p>จุดชมวิวที่สูงที่สุดในระยอง ที่นี่คุณสามารถมองเห็นวิวทะเลที่กว้างขวางและเต็มไปด้วยบรรยากาศธรรมชาติที่สงบ เหมาะสำหรับการถ่ายภาพและนั่งพักผ่อนท่ามกลางธรรมชาติ</p>
-        <ul>
-          <li><strong>กิจกรรม:</strong> เดินเล่นชมวิว, ถ่ายภาพ, พักผ่อนท่ามกลางธรรมชาติ</li>
-          <li><strong>ที่ตั้ง:</strong> อุทยานแห่งชาติเขาแหลมหญ้า-หมู่เกาะเสม็ด ต.เพ อ.เมืองระยอง จ.ระยอง</li>
-        </ul>
-      </div>
-
-      <!-- Spot 5 -->
-      <div class="spot-card">
-        <img src="images/spot5.jpg" alt="สวนทิวลิป ระยอง">
-        <h2>สวนทิวลิป ระยอง</h2>
-        <p>สวนที่มีดอกทิวลิปสวยงามในช่วงฤดูหนาว พร้อมร้านขายของฝากที่มีทั้งผลิตภัณฑ์จากทะเลแห้ง ผลไม้สด และสินค้าพื้นเมืองระยองที่มีเอกลักษณ์</p>
-        <ul>
-          <li><strong>กิจกรรม:</strong> ชมดอกทิวลิป, ช็อปปิ้งของฝาก, ถ่ายรูป</li>
-          <li><strong>ที่ตั้ง:</strong> อาคารนิทรรศน์พรรณพฤกษา ต.มาบตาพุด อ.เมืองระยอง จ,ระยอง</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+    </div>
+  </div>
 
   <!-- Footer -->
-  <footer>
-    <p>© 2024 จังหวัดระยอง - พัฒนาโดย [66160003]</p>
-    <div class="social-links">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-    </div>    
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <p class="text-center">© 2024 Rayong Travel - พัฒนาโดย [66160003]</p>
+    </div>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
